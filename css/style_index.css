@@ -1,0 +1,210 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    height: 5000px;
+    font-family: nimbuslight;
+}
+
+.videoinicial{
+    border: px solid red;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    /*background-image: url(hamburguer_1.jpg);*/
+    background-color: #313131;
+    background-repeat: no-repeat, no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+}
+
+video{
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    /*position: fixed;*/
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+header{
+    border: 0px solid red;
+    position: absolute;
+    position: fixed;
+    width: 100vw;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    height: 72px;
+    color: white;
+    z-index: 100;
+    /*background-color: rgb(49, 49, 49, 0.9);*/
+}
+
+.conteudo-cabecalho{
+    border: 0px solid white;
+    height: 42px;
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+:root{
+    --larguramargensmenu: 200px;
+}
+
+.logo{
+    border: 0px solid red;
+    width: var(--larguramargensmenu);
+}
+
+.logoico{
+    height: 45px;
+    width: auto;
+}
+
+.menu-cabecalho{
+    border: 0px solid red;
+    width: 500px;
+    /*margin: 0 auto;*/
+    display: flex;
+    justify-content: space-between;
+    font-family: nimbuslight;
+}
+
+.botmenucab{
+    border: 0px solid blue;
+    vertical-align: middle;
+}
+
+.parbotmenu{
+    border: 0px solid red;
+    margin-top: 10px;
+    font-size: 18px;
+    /*color: black;*/
+}
+
+.botsusercab{
+    border: 0px solid red;
+    width: var(--larguramargensmenu);
+    display: flex;
+    justify-content: flex-end;
+}
+
+.botsuser{
+    border: 0px solid blue;
+    margin-left: 15px;
+}
+
+.abotusr{
+    border: 0px solid green;
+    margin-top: 00px;
+}
+
+.imgusr{
+    width: 24px;
+    margin-top: 7px;
+}
+
+.txtmsg{
+    border: 0px solid red;
+    position: absolute;
+    margin: 0 auto;
+    z-index: 2;
+    top: calc(100vh - 70px);
+    /*left: 35%;*/
+    width: 80%;
+    margin-left: calc(50vw - 40vw);
+    height: 60px;
+    /*top: 50vh;*/
+    text-align: center;
+}
+
+.logocent{
+    border: 0px solid green;
+    position: relative;
+    height: 20px;
+    color: white;
+    /*font-family: nimbusreg;*/
+    font-family: nimbusdot;
+}
+
+.txtcent{
+    border: 0px solid blue;
+    position: relative;
+    height: 35px;
+    /*top: 26px;*/
+    font-family: 'Quicksand', sans-serif;
+    /*font-family: quicksandvaroff;*/
+    font-weight: 400;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------*/
+.conteudo{
+    border: 1px solid red;
+    height: 1000px;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 50px auto 50px;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "espacoesq conteudoum espacodir"
+    "espacoesq conteudodois espacodir"
+    "espacoesq conteudotres espacodir"
+    /*"main main . sidebar"
+    "footer footer footer footer"*/;
+}
+
+.item{
+    border: 1px solid black;
+}
+
+.item-a{
+    grid-area: conteudoum;
+}
+
+.item-b{
+    grid-area: conteudodois;
+}
+
+.item-c{
+    grid-area: conteudotres;
+}
+
+.item-d{
+    grid-area: footer;
+}
+
+.centro{
+    border: 1px solid red;
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 60px;
+}
