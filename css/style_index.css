@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    height: 5000px;
+    /*height: 5000px;*/
     font-family: nimbuslight;
 }
 
@@ -202,9 +202,364 @@ header{
     grid-area: footer;
 }
 
+
+
+
+
+
 .centro{
-    border: 1px solid red;
+    border: 0px solid red;
     width: 85%;
     margin: 0 auto;
     margin-top: 60px;
+    /*height: 1500px;*/
+}
+
+.firsttop{
+    border: 0px solid blue;
+    height: 200px;
+    text-align: center;
+}
+
+.titpeq{
+    border: 0px solid green;
+    font-family: freesansbold;
+    /*font-family: robotoblack;*/
+    font-size: 14px;
+    letter-spacing: 0px;
+    color: #111;
+}
+
+.titgra{
+    border: 0px solid red;
+    font-family: robotoblack;
+    font-size: 48px;
+    letter-spacing: -1px;
+    color: #111;
+    margin-top: 5px;
+}
+
+.semitit{
+    border: 0px solid black;
+    font-size: 21px;
+    font-family: nimbuslight;
+    color: #111;
+    margin-top: 10px;
+}
+
+.botsfirsttop{
+    border: 0px solid green;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.botumft{
+    border: 0px solid pink;
+    background-color: #111;
+    color: white;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    font-family: freesansbold;
+    /*font-family: robotoblack;*/
+    font-size: 14px;
+    letter-spacing: 0px;
+}
+
+#botesqft{
+    margin-right: 5px;
+}
+
+.segundaparte{
+    border: 0px solid green;
+    /*height: 700px;*/
+    margin-top: 40px;
+}
+
+.titsp{
+    border: 0px solid blue;
+    font-family: robotoblack;
+    font-size: 22px;
+    letter-spacing: -0.5px;
+    color: #111;
+}
+
+.carrroselsp{
+    border: 0px solid black;
+    margin-top: 20px;
+    height: 430px;
+    width: 100%;
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    /*justify-content: center;*/
+    text-align: center;
+}
+
+.artcarsp{
+    border: 0px solid red;
+    min-width: 300px;
+    width: 300px;
+    height: 400px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.imgartsp{
+    border: 0px solid blue;
+    height: 78%;
+    /*object-fit: cover;
+    background-image: url("../img/testeimg.jpg");*/
+}
+
+.imgprod{
+    height: auto;
+    width: 100%;
+    border: 0px solid red;
+    object-fit: cover;
+}
+
+.bximgartsp{
+    border: 0px solid black;
+    display: flex;
+    height: 17%;
+}
+
+.esqtxtartsp{
+    border: 0px solid pink;
+    width: 75%;
+}
+
+.titartsp{
+    border: 0px solid green;
+    text-align: left;
+    font-family: robotoblack;
+    font-size: 14px;
+    letter-spacing: -0.2px;
+    color: #111;
+}
+
+.subtitartsp{
+    border: 0px solid red;
+    text-align: left;
+    font-family: robotoblack;
+    font-size: 14px;
+    letter-spacing: -0.2px;
+    color: #757575;
+}
+
+.precoartsp{
+    border: 0px solid blue;
+    width: 25%;
+    text-align: right;
+    font-family: robotoblack;
+    font-size: 14px;
+    letter-spacing: -0.5px;
+    color: #111;
+}
+
+
+
+
+
+
+/*------------------------*/
+
+.roupahomem{
+    border: 1px solid red;
+    margin-top: 100px;
+    height: 900px;
+}
+
+#titrphm{
+    border: 1px solid blue;
+}
+
+.contrphm{
+    border: 1px solid green;
+    margin-top: 40px;
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.boxrphm{
+    border: 1px solid red;
+    height: 260px;
+    min-width: 260px;
+    width: 260px;
+    display: flex;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.imgbxrphm{
+    border: 1px solid black;
+    width: 50%;
+}
+
+.txtbxrphm{
+    border: 1px solid black;
+    width: 50%;
+}
+
+#bxum{
+    background-color: #ff8d23;
+}
+
+#rphm{
+    margin-top: 100px;
+}
+
+#rpcr{
+    margin-top: 100px;
+    border: 0px solid red;
+}
+
+
+
+/*----------------fim carrousels--------*/
+
+.menufundo{
+    border: 0px solid red;
+    margin-top: 100px;
+    /*height: 400px;*/
+}
+
+.contmenufundo{
+    border: 0px solid black;
+    width: 80%;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.colcmf{
+    border: 0px solid blue;
+    width: 184px;
+    margin-right: 48px;
+}
+
+#colcmffim{
+    margin-right: 0px;
+}
+
+.ccmftit{
+    border: 0px solid red;
+    font-family: nimbuslight;
+    font-size: 18px;
+    margin-bottom: 28px;
+}
+
+.ccmftxt{
+    border: 0px solid green;
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 15px;
+}
+
+
+
+/*----------rodape-----------------*/
+
+footer{
+    border: 0px solid red;
+    margin-top: 50px;
+    width: 100vw;
+    height: 360px;
+    background-color: #171717;
+    color: white;
+}
+
+.contft{
+    border: 0px solid red;
+    width: 90vw;
+    height: 99%;
+    margin: 0 auto;
+}
+
+.centft{
+    border: 0px solid blue;
+    margin-top: 25px;
+    display: flex;
+    font-size: 1px;
+}
+
+.columfim{
+    border: 0px solid red;
+    width: 205px;
+}
+
+.boldfim{
+    height: 28px;
+    margin-bottom: 3px;
+    font-size: 14px;
+    font-family: freesansbold;
+    /*font-family: robotoblack;*/
+}
+
+.noboldfim{
+    height: 28px;
+    margin-bottom: 3px;
+    color: #7e7e7e;
+    font-size: 14px;
+}
+
+.lgsfim{
+    font-size: 14px;
+    border: 0px solid green;
+    width: calc(100% - 615px);
+    /*background-color: yellowgreen;*/
+    text-align: right;
+}
+
+.social-link-icon{
+    fill: #7e7e7e;
+    transition: fill .2s;
+    margin-left: 10px;
+}
+
+.social-link-icon:hover{
+    fill: white;
+    transition: fill .2s;
+}
+
+.fundofim{
+    /*border: 1px solid green;*/
+    border-top: 0.5px solid rgb(48, 48, 48);
+    margin-top: 60px;
+}
+
+.contfimf{
+    border: 0px solid red;
+    margin-top: 15px;
+    display: flex;
+}
+
+svg{
+    fill: white;
+    margin-top: 2px;
+    height: 17px;
+    width: 18px;
+}
+
+.txtxcontpt{
+    border: 0px solid red;
+    margin-top: 3px;
+    margin-left: 7px;
+    font-size: 13px;
+}
+
+#cinzapeq{
+    color: #757575;
+    font-size: 13px;
+    margin-left: 40px;
+    border: 0px solid red;
+    width: calc(100% - 110px);
+    text-align: right;
 }
